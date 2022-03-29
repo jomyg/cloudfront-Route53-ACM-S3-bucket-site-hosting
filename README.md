@@ -37,11 +37,11 @@ Step 2 : Create Cloudfront
 * Finaly create a ACM SSL, Associate a certificate from AWS Certificate Manager. The certificate must be in the US East (N. Virginia) Region (us-east-1). For this     you can request on time and add its records to ROute 53 for the verifications. 
 * Default root object : index.html in my case
 ```
-firefox_2uPUh59oU0.png ROute53
-firefox_qixMhEUp8L.png
-firefox_SpNZDUqSni.png
-firefox_MS3BBLGeqh.png
-firefox_BCNf3Jd2Vh.png ACM
+<center><img alt="ROute53" src="firefox_2uPUh59oU0.png"> </img></center>
+<center><img alt="ROute53" src="firefox_qixMhEUp8L.png"> </img></center>
+<center><img alt="ROute53" src="firefox_SpNZDUqSni.png"> </img></center>
+<center><img alt="ROute53" src="firefox_MS3BBLGeqh.png"> </img></center>
+<center><img alt="ACM" src="firefox_BCNf3Jd2Vh.png"> </img></center>
 
 Step 2 : On ROute 53
 ```
