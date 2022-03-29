@@ -30,28 +30,30 @@ firefox_DGtdzi0s5Y.png
 Step 2 : Create Cloudfront
 
 ```
-* Select your
+* Select your S3 bucket on cloudfront "orgin domain" 
+* On Viewer protocol policy, slect the HTTP to HTTPS Redirect.
+* On Settings, you can choose the edge locations
+* At Alternate domain name (CNAME), provide a name called like "cloud.jomygeorge.xyz"
+* Finaly create a ACM SSL, Associate a certificate from AWS Certificate Manager. The certificate must be in the US East (N. Virginia) Region (us-east-1). For this     you can request on time and add its records to ROute 53 for the verifications. 
+* Default root object : index.html in my case
 ```
+firefox_2uPUh59oU0.png ROute53
 firefox_qixMhEUp8L.png
+firefox_SpNZDUqSni.png
+firefox_MS3BBLGeqh.png
+firefox_BCNf3Jd2Vh.png ACM
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Step 2 : On ROute 53
+```
+* Create a A record for the subdomain "cloud.jomygeorge.xyz" 
+* Then Route traffic to as alias "Alias to cloudfront distrubution" and slect you cloudfront ID
+* Create the record now
+```
 
 
 ## Conclusion
 
-
+In this tutorial we discussed how to set a cloudfront for an S3 origin. The goal is to get you started on using Amazon CloudFront for for high-speed, low-latency performance, security, and developer ease-of-use as it is cheap and easy to do.
 
 #### ⚙️ Connect with Me
 
