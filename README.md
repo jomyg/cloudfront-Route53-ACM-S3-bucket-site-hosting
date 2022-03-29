@@ -15,8 +15,24 @@ ACM - For ssl
 CLoudfront with OAI Enabled
 ```
 
-### Lets go to the deployment
+#### OAI : origin access identity
 
+The request to create a new origin access identity (OAI). An origin access identity is a special CloudFront user that you can associate with Amazon S3 origins, so that you can secure all or just some of your Amazon S3 content.
+
+### Lets go to the deployment:
+#### Step 1 Create S3 bucket
+```
+Create a S3 Bucket with default settings and only enable the static website host.
+Upload your site contents to your s3 bucket and save it
+```
+firefox_DGtdzi0s5Y.png
+
+Step 2 : Create Cloudfront
+
+```
+* Select your
+```
+firefox_qixMhEUp8L.png
 
 
 
