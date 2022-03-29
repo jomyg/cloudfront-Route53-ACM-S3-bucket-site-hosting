@@ -7,6 +7,8 @@ Setting-Cloudfront-for-s3-as origin
 Amazon CloudFront is a global content delivery network (CDN) service built for high-speed, low-latency performance, security, and developer ease-of-use. We can set Cloudfront to different origins as Ec2 instance, S3 bucket.
 Amazon CloudFront is a content delivery network operated by Amazon Web Services. Content delivery networks provide a globally-distributed network of proxy servers that cache content, such as web videos or other bulky media, more locally to consumers, thus improving access speed for downloading the content.
 
+<center><img alt="ACM" src="cloudfront.png"> </img></center>
+
 ## Pre-Requests
 ```
 S3 Bucket with static site enabled
@@ -25,7 +27,8 @@ The request to create a new origin access identity (OAI). An origin access ident
 Create a S3 Bucket with default settings and only enable the static website host.
 Upload your site contents to your s3 bucket and save it
 ```
-firefox_DGtdzi0s5Y.png
+<center><img alt="ACM" src="firefox_DGtdzi0s5Y.png"> </img></center>
+
 
 Step 2 : Create Cloudfront
 
