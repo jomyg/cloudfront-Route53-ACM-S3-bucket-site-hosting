@@ -55,6 +55,8 @@ Step 2 : On ROute 53
 
 In this tutorial we discussed how to set a cloudfront for an S3 origin. The goal is to get you started on using Amazon CloudFront for for high-speed, low-latency performance, security, and developer ease-of-use as it is cheap and easy to do.
 
+<center><img alt="ROute53" src="firefox_TRJyIf9gcN.png"> </img></center>
+
 #### ⚙️ Connect with Me
 
 <p align="center">
