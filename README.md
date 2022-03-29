@@ -1,4 +1,4 @@
-#Setting-Cloudfront-for-s3-as origin
+Setting-Cloudfront-for-s3-as origin
 
 [![Build](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
